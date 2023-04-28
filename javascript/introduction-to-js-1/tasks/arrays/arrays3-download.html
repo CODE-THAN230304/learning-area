@@ -29,7 +29,13 @@
     let myArray = [ "Ryu", "Ken", "Chun-Li", "Cammy", "Guile", "Sakura", "Sagat", "Juri" ];
 
     // Add your code here
+myArray.pop();
+myArray.push(`Tan`, `Phi`);
+for(let x of myArray) {
+  x = `${x} (${myArray.indexOf(x)})`;
 
+}
+const myString = myArray.join(`-`);
     // Don't edit the code below here!
 
     const section = document.querySelector('section');
